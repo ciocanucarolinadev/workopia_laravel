@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 use Illuminate\HTTP\RedirectResponse;
-use Illuminate\Support\Facades\Auth
+use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
@@ -35,5 +35,17 @@ class LoginController extends Controller
         return back()->withErrors([
             'email' => "The provided credentials do not match our records"
         ])->onlyInput('email');
+    }
+
+    // @desc Logout user
+    // @route POST /logout
+    public function logout(Request $request): RedirectResponse {
+        Auth::logout();
+
+        // Invalidate session
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return redirect('/');
     }
 }
