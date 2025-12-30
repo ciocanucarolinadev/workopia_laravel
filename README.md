@@ -4,18 +4,18 @@ A modern, full-featured job board application built with Laravel that connects j
 
 ## 📋 Table of Contents
 
--   [Overview](#overview)
--   [Features](#features)
--   [Technology Stack](#technology-stack)
--   [Requirements](#requirements)
--   [Installation](#installation)
--   [Configuration](#configuration)
--   [Usage](#usage)
--   [Project Structure](#project-structure)
--   [Key Functionalities](#key-functionalities)
--   [Testing](#testing)
--   [Contributing](#contributing)
--   [License](#license)
+-   [Overview](#-overview)
+-   [Features](#-features)
+-   [Technology Stack](#-technology-stack)
+-   [Requirements](#-requirements)
+-   [Installation](#-installation)
+-   [Configuration](#-configuration)
+-   [Usage](#-usage)
+-   [Project Structure](#-project-structure)
+-   [Key Functionalities](#-key-functionalities)
+-   [Testing](#-testing)
+-   [Contributing](#-contributing)
+-   [License](#-license)
 
 ## 🎯 Overview
 
